@@ -1,0 +1,61 @@
+html {
+  font: 18px "Georgia", serif; }
+
+.heading-px {
+  font-size: 76px;
+  margin: 0 0 200px; }
+
+.heading-rem {
+  font-size: 4.235801032rem;
+  margin: 0 0 200px; }
+
+.box-1 {
+  display: inline-block;
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+  background: midnightblue; }
+
+.box-2 {
+  display: inline-block;
+  margin-right: 13px;
+  width: 26px;
+  height: 26px;
+  background: midnightblue; }
+
+.box-3 {
+  display: inline-block;
+  margin-right: 21px;
+  width: 42px;
+  height: 42px;
+  background: midnightblue; }
+
+.box-4 {
+  display: inline-block;
+  margin-right: 34px;
+  width: 69px;
+  height: 69px;
+  background: midnightblue; }
+
+.box-5 {
+  display: inline-block;
+  margin-right: 55px;
+  width: 111px;
+  height: 111px;
+  background: midnightblue; }
+
+.box-6 {
+  display: inline-block;
+  margin-right: 90px;
+  width: 179px;
+  height: 179px;
+  background: midnightblue; }
+
+.box-7 {
+  display: inline-block;
+  margin-right: 145px;
+  width: 290px;
+  height: 290px;
+  background: midnightblue; }
+
+/*# sourceMappingURL=example.css.map */

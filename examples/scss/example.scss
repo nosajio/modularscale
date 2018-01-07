@@ -1,0 +1,31 @@
+@import "../../scss/ms";
+
+// Set some defaults for 
+// The scale the golden section / golden ratio
+$ms-scale: 1.618;
+// Set the base number for mspx()
+$ms-px: 18px;
+
+html {
+  font: 18px "Georgia", serif;
+}
+
+.heading-px {
+  font-size: mspx(3);
+  margin: 0 0 mspx(5);
+}
+
+.heading-rem {
+  font-size: msrem(3);
+  margin: 0 0 mspx(5);
+}
+
+@for $i from 1 through 7 {
+  .box-#{$i} {
+    display: inline-block;
+    margin-right: mspx($i, 5px);
+    width: mspx($i, 10px);
+    height: mspx($i, 10px);
+    background: midnightblue;
+  }
+}
