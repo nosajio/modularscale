@@ -1,0 +1,9 @@
+{
+  "name": "modularscale-helpers",
+  "version": "1.0.0",
+  "description": "Tools for using the modular scale in different languages.",
+  "main": "index.js",
+  "repository": "https://github.com/nosajio/modularscale",
+  "author": "Jason Howmans <jason@nosaj.io>",
+  "license": "MIT"
+}
