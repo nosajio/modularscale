@@ -4,7 +4,7 @@ This repository contains a host of different helpers for working with modular sc
 
 You can learn more about modular scales [here](http://www.modularscale.com/?20&px&1.125), or learn about this project [here](https://nosaj.io/r/modular-scale).
 
-### How to use modular-scale helpers
+## How to use modular-scale helpers
 The easiest way to use this in your own project is to use NPM:
 
 ```sh
@@ -12,13 +12,13 @@ npm install --save modularscale-helpers
 ```
 
 <a name="styled-components"></a>
-#### Using JS helpers with Styled Components 
+## Styled Components 
 See the [example](https://github.com/nosajio/modularscale/tree/master/examples/modular-scale/example.js) using modularscale helpers with Styled Components.
 
 For more information about the modularscale Javascript helpers, refer to the [Javascript section](#javascript) of the readme.
 
 <a name="scss"></a>
-#### Using SCSS helpers
+## SCSS 
 [See example](https://github.com/nosajio/modularscale/tree/master/examples/scss/example.scss).
 
 Before using the SASS helpers, there are some global variables that you can set to configure the scale:
@@ -68,7 +68,7 @@ $val: mspx(-2, 20px); // -> 8px
 
 
 <a name="javascript"></a>
-#### Using Javascript helpers
+## Javascript 
 [See example](https://github.com/nosajio/modularscale/tree/master/examples/js/example.js).
 
 ```js
