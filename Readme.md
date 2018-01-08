@@ -4,7 +4,7 @@ This repository contains a host of different helpers for working with modular sc
 
 You can learn more about modular scales [here](http://www.modularscale.com/?20&px&1.125), or learn about this project [here](https://nosaj.io/r/modular-scale).
 
-## How to use modular-scale helpers
+## How to use the helpers
 The easiest way to use this in your own project is to use NPM:
 
 ```sh
