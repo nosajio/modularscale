@@ -1,17 +1,16 @@
+import React, { Component } from 'react';
+import { render } from 'react-dom';
+// import 'styled-components';
 
-var Example = createReactClass({
-  render: function () {
-    return React.createElement(
-      "div",
-      { className: "Example" },
-      React.createElement(
-        "h1",
-        null,
-        "It works"
-      )
+class Example extends Component {
+  render() {
+    return (
+      <div className="Example">
+        <h1>It works!</h1>
+      </div>
     );
   }
-});
+};
 
 var root = document.querySelector('.example');
-ReactDOM.render(React.createElement(Example, null), root);
+render(<Example />, root);
