@@ -41,29 +41,29 @@ There are three methods available to use in your SCSS:
 ```scss
 // ms($exponent) -> float
 // Where most of the magic happens. Pass in a step value and it will output the scale value. 
-$val: ms(1)          // -> 1.618
-$val: ms(2)          // -> 2.617924
-$val: ms(3)          // -> 4.235801032
-$val: ms(-1)         // -> 0.618046972
+$val: ms(1);          // -> 1.618
+$val: ms(2);          // -> 2.617924
+$val: ms(3);          // -> 4.235801032
+$val: ms(-1);         // -> 0.618046972
 
 
 // msrem($exponent) -> float
 // Same as ms() except this will append 'rem' to the end of the scale value, making it easier to use without string concatenation.
-$val: msrem(2)       // -> 2.617924rem
-$val: msrem(3)       // -> 4.235801032rem
-$val: msrem(-1)      // -> 0.618046972rem
+$val: msrem(2);       // -> 2.617924rem
+$val: msrem(3);       // -> 4.235801032rem
+$val: msrem(-1);      // -> 0.618046972rem
 
 
 // mspx($exponent, $base?) -> px value
 // This is where the $ms-px variable above comes in. Use with a single argument to output a pixel value that uses the value of $ms-mx as a base.
-$val: mspx(2)        // -> 47px
-$val: mspx(1)        // -> 29px
-$val: mspx(-2)       // -> 7px
+$val: mspx(2);        // -> 47px
+$val: mspx(1);        // -> 29px
+$val: mspx(-2);       // -> 7px
 
 // mspx can also be used with any base value:
-$val: mspx(2, 10px)  // -> 26px
-$val: mspx(0, 10px)  // -> 10px
-$val: mspx(-2, 20px) // -> 8px
+$val: mspx(2, 10px);  // -> 26px
+$val: mspx(0, 10px);  // -> 10px
+$val: mspx(-2, 20px); // -> 8px
 ```
 
 
