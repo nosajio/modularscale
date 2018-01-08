@@ -13,7 +13,7 @@ npm install --save modularscale-helpers
 
 <a name="styled-components"></a>
 ## Styled Components 
-See the [example](https://github.com/nosajio/modularscale/tree/master/examples/modular-scale/example.js) using modularscale helpers with Styled Components.
+See the [example](https://github.com/nosajio/modularscale/tree/master/examples/modular-scale/example.js).
 
 For more information about the modularscale Javascript helpers, refer to the [Javascript section](#javascript) of the readme.
 
