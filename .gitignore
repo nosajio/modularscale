@@ -6,3 +6,6 @@ node_modules
 
 # Source maps
 *.map
+
+# For styled-components and js demo
+dist
