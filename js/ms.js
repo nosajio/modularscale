@@ -38,13 +38,12 @@ export const msopts = optsObj => {
 export const ms = exponent => {
   let val = 1;
   let e = exponent > -1 ? exponent : exponent * -1;
-  while(e) {
+  while(e --) {
     if (exponent < 0) {
       val = val / msjs.scale;
     } else {
       val = val * msjs.scale;
     }
-    e--
   }
   return val;
 }
