@@ -1,16 +1,22 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-// import 'styled-components';
+import styled from 'styled-components';
+
+const Element = styled.div`
+  background: midnightblue;
+  width: 100px;
+  height: 100px;
+`;
 
 class Example extends Component {
   render() {
     return (
       <div className="Example">
-        <h1>It works!</h1>
+        <Element />
       </div>
     );
   }
 };
 
-var root = document.querySelector('.example');
+const root = document.querySelector('.example');
 render(<Example />, root);
