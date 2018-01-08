@@ -10,8 +10,6 @@ msopts({
   px: baseSize,
 });
 
-window.ms = ms;
-
 injectGlobal`
   font: ${baseSize}px "Georgia", serif; 
   background: snow;
