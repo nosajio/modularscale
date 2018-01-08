@@ -1,6 +1,6 @@
 ## Modular Scale Components
 
-This repo contains a host of different helpers for working with modular scales. So far supported languages include: SCSS, 
+This repo contains a host of different helpers for working with modular scales. So far supported languages include: SCSS, Javascript, and Styled Components.
 
 Support for CSS, Javascript and Styled Components is still in the works and coming soon.
 

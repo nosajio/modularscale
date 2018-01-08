@@ -1,5 +1,5 @@
 //
-//  ms.js
+//  js/ms.js
 //
 //  Copyright (c) 07/01/2018 Jason Howmans 
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
