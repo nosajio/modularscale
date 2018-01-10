@@ -1,6 +1,6 @@
 {
   "name": "modularscale-helpers",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Tools for using the modular scale in different languages.",
   "main": "js/ms.js",
   "repository": "https://github.com/nosajio/modularscale",
