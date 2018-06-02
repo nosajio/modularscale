@@ -2,12 +2,14 @@
   "name": "modularscale-helpers",
   "version": "1.0.2",
   "description": "Tools for using the modular scale in different languages.",
-  "main": "js/ms.js",
+  "main": "js/ms-bundle.js",
   "repository": "https://github.com/nosajio/modularscale",
   "author": "Jason Howmans <jason@nosaj.io>",
   "license": "MIT",
   "scripts": {
-    "build-js": "webpack --config ./examples/webpack.config.js"
+    "build-examples": "webpack --config ./examples/webpack.config.js",
+    "build-js": "webpack ./js/ms.js -o ./dist/ms-bundle.js --output-library-target=commonjs-module",
+    "prepublish": "npm run build-js"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -20,6 +22,7 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "styled-components": "^2.4.0",
-    "webpack": "^3.10.0"
+    "webpack": "^4.10.2",
+    "webpack-cli": "^3.0.1"
   }
 }
